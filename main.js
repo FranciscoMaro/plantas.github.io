@@ -4,33 +4,42 @@ let Apellido= prompt ("decime tu apellido");
 
 let NumeroDeCompetidor= parseInt(prompt("Ingrese su numero de competidor"));
 
+alert ("Bienvenido " + " " + Nombre + " " + Apellido + " al ingreso" );
+
 let camiseta = 0;
 
+let grupoA = "";
 
-alert ("Bienvenido " + " " + Nombre + " " + Apellido + " al ingreso" );
+let grupoB= "";
+
+
+
+
 
 if (NumeroDeCompetidor <= 50) {
    alert ("sos del grupo A")
 
+   
 
-
-/* ciclo */
-for (let i = 0; i < camiseta.length; i++) {
-  text += camiseta[i] + "<br>";
-  console.log(text)
-}
-
-for (let i= 1; i < 50; i++) { 
-
-    alert ("Te vas al grupo A")
-  let resultado= NumeroDeCompetidor + i;
-  alert (NumeroDeCompetidor + "x" + i +  " = " + resultado)
-}
-}
-
-else {
+  } else {
     alert ( " sos del Grupo B")
+
+   
+
 }
+
+
+for (camiseta = 1; camiseta <= 50; camiseta++) {
+  console.log(camiseta);
+  
+}
+
+
+for (camiseta = 1; camiseta >= 50; camiseta++) {
+  console.log(camiseta);
+  
+}
+
 
 console.log (Nombre);
 console.log (Apellido);
